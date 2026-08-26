@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siva S — Aspiring Data Analyst | Portfolio</title>
+  <meta name="description" content="Portfolio of Siva S, an Aspiring Data Analyst skilled in SQL, Python, Excel and Power BI. Explore projects, interactive dashboards, and analytics workflows." />
+  <meta name="keywords" content="Data Analyst, SQL, Python, Power BI, Excel, Healthcare Analytics, Portfolio, Siva S, Data Visualization, Dashboards" />
+  <meta name="author" content="Siva S" />
+  <meta property="og:title" content="Siva S — Aspiring Data Analyst Portfolio" />
+  <meta property="og:description" content="Turning raw data into meaningful insights using SQL, Python, Excel and Power BI." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#050807" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23050807'/><circle cx='16' cy='16' r='10' fill='none' stroke='%2300A86B' stroke-width='2.5'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Inter,sans-serif' font-weight='700' font-size='15' fill='%2319C37D'>S</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ═══════════════════════════════════════════ NAVBAR ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-symbol">◆</span> Siva <span class="accent">S</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#dashboards" class="nav-link">Dashboards</a></li>
+        <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#github" class="nav-link">GitHub</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="./assets/Siva_S_Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-resume-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Resume</span>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════ HERO ═══════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Subtle Background Radial Glow -->
+    <div class="hero-bg-glow" aria-hidden="true"></div>
+
+    <div class="hero-container">
+      <!-- Left Column: Primary Content -->
+      <div class="hero-content" data-animate>
+        <div class="hero-badge">
+          <span class="status-dot"></span>
+          <span>Open to Data Analyst Opportunities</span>
+        </div>
+        <p class="hero-greeting">HELLO, I'M</p>
+        <h1 class="hero-name">Siva S</h1>
+        <p class="hero-title">Aspiring <span class="accent">Data Analyst</span></p>
+        <h2 class="hero-headline">Turning Data Into Meaningful Insights</h2>
+        <p class="hero-description">I transform raw data into meaningful insights using SQL, Python, Excel and Power BI.</p>
+        
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <span>View My Projects</span>
+          </a>
+          <a href="./assets/Siva_S_Resume.pdf" download class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download Resume</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/siva252005" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile" title="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sivasivakumar252005/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:msdsiva762@gmail.com" class="social-link" aria-label="Email" title="Send Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Professional Portrait Card + Tech Stack -->
+      <div class="hero-visual" data-animate>
+        <div class="hero-profile-container">
+          <!-- Clean Professional Portrait Card -->
+          <div class="profile-card">
+            <div class="profile-photo-wrapper">
+              <img 
+                src="./assets/profile-photo.jpg.jpeg" 
+                alt="Siva S - Aspiring Data Analyst" 
+                class="profile-photo"
+              />
+            </div>
+            
+            <div class="profile-meta">
+              <h3 class="profile-name">Siva S</h3>
+              <p class="profile-role">Aspiring <span class="accent">Data Analyst</span></p>
+            </div>
+
+            <!-- Compact Tech Stack Row -->
+            <div class="profile-tech-stack">
+              <span class="tech-badge">SQL</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Power BI</span>
+              <span class="tech-badge">Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <a href="#workflow" aria-label="Scroll to explore">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ DATA ANALYTICS WORKFLOW ═══════════════════════════════════════════ -->
+  <section class="section workflow-section" id="workflow">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">End-To-End Methodology</span>
+        <h2 class="section-title">Data Analytics Workflow</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">From raw data to actionable insights</p>
+      </div>
+
+      <div class="workflow-container" data-animate>
+        <!-- Step 1: Raw Data -->
+        <div class="workflow-card">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">01</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">RAW DATA</h3>
+          <p class="workflow-step-desc">Collect and understand the dataset</p>
+        </div>
+
+        <div class="workflow-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+
+        <!-- Step 2: Data Cleaning -->
+        <div class="workflow-card">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">02</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">DATA CLEANING</h3>
+          <p class="workflow-step-desc">Handle missing values, duplicates and data quality</p>
+        </div>
+
+        <div class="workflow-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+
+        <!-- Step 3: Python / Pandas -->
+        <div class="workflow-card">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">03</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">PYTHON / PANDAS</h3>
+          <p class="workflow-step-desc">Transform and explore the data</p>
+        </div>
+
+        <div class="workflow-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+
+        <!-- Step 4: SQL Analysis -->
+        <div class="workflow-card">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">04</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">SQL ANALYSIS</h3>
+          <p class="workflow-step-desc">Query, aggregate and analyze the data</p>
+        </div>
+
+        <div class="workflow-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+
+        <!-- Step 5: Power BI -->
+        <div class="workflow-card">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">05</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">POWER BI</h3>
+          <p class="workflow-step-desc">Build interactive dashboards</p>
+        </div>
+
+        <div class="workflow-arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+
+        <!-- Step 6: Business Insights -->
+        <div class="workflow-card highlight">
+          <div class="workflow-card-top">
+            <span class="workflow-step-num">06</span>
+            <div class="workflow-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+          </div>
+          <h3 class="workflow-step-title">BUSINESS INSIGHTS</h3>
+          <p class="workflow-step-desc">Communicate findings for decision making</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ ABOUT ═══════════════════════════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Get To Know Me</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid" data-animate>
+        <div class="about-content">
+          <p class="about-lead">
+            I am an aspiring Data Analyst with a strong interest in transforming raw data into meaningful insights. I work with SQL, Python, Excel and Power BI to clean, analyze and visualize data.
+          </p>
+          <p>
+            I have worked on practical projects involving healthcare analytics, sales analysis and business dashboards. Through these projects, I have developed an understanding of the complete data analytics workflow, from data preparation and SQL analysis to interactive dashboard development.
+          </p>
+          <p>
+            I continuously improve my analytical and visualization skills by working with real-world datasets and building practical projects.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <h3>Career Focus</h3>
+            <p>Data Analytics & Business Intelligence</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Core Toolkit</h3>
+            <p>SQL • Python • Excel • Power BI</p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3>Project Domains</h3>
+            <p>Healthcare • E-Commerce • Disaster Analytics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ SKILLS ═══════════════════════════════════════════ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Technical Stack</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="skills-grid" data-animate>
+        <!-- Data Analytics -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+            </div>
+            <h3>Data Analytics</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Data Cleaning</span>
+            <span class="skill-tag">Exploratory Data Analysis</span>
+            <span class="skill-tag">Data Visualization</span>
+            <span class="skill-tag">Business Analysis</span>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+          </div>
+        </div>
+
+        <!-- Power BI -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Power BI</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">DAX</span>
+            <span class="skill-tag">Power Query</span>
+            <span class="skill-tag">Data Modeling</span>
+            <span class="skill-tag">Dashboard Development</span>
+          </div>
+        </div>
+
+        <!-- Excel -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+            </div>
+            <h3>Excel</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Pivot Tables</span>
+            <span class="skill-tag">XLOOKUP</span>
+            <span class="skill-tag">Charts</span>
+            <span class="skill-tag">Data Cleaning</span>
+          </div>
+        </div>
+
+        <!-- Visualization -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 10 10"/><path d="M12 12 2 12"/></svg>
+            </div>
+            <h3>Visualization</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">Power BI</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+            </div>
+            <h3>Database</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQLite</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">Google Colab</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ FEATURED PROJECTS ═══════════════════════════════════════════ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Applied Analytics</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Major Featured Project: Healthcare Data Analytics -->
+      <div class="project-card featured" data-animate>
+        <div class="project-media">
+          <img src="./assets/Executive Overview.png" alt="Healthcare Data Analytics & Insurance Cost Dashboard" class="project-img" loading="lazy" />
+          <span class="project-badge">⭐ Major Featured Project</span>
+        </div>
+
+        <div class="project-details">
+          <h3 class="project-title">Healthcare Data Analytics & Insurance Cost Dashboard</h3>
+          <p class="project-description">
+            An end-to-end healthcare data analytics project focused on analyzing insurance costs, patient demographics, risk factors and regional trends. The project covers data cleaning, feature engineering, exploratory analysis, SQL analytics and interactive Power BI dashboard development.
+          </p>
+
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>MySQL</span>
+            <span>Power BI</span>
+            <span>DAX</span>
+          </div>
+
+          <div class="project-insights">
+            <h4>Key Insights</h4>
+            <ul>
+              <li>Smokers have significantly higher average healthcare charges.</li>
+              <li>Healthcare costs generally increase with age.</li>
+              <li>Higher BMI and risk levels are associated with higher insurance costs.</li>
+            </ul>
+          </div>
+
+          <!-- Project Workflow -->
+          <div class="project-workflow-box">
+            <span class="workflow-title">Project Analytics Workflow</span>
+            <div class="workflow-steps">
+              <span class="wf-step">Raw Data</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step">Data Cleaning</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step">Feature Engineering</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step">EDA</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step">SQL Analysis</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step">Power BI</span>
+              <span class="wf-arrow">→</span>
+              <span class="wf-step highlight">Business Insights</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/siva252005/healthcare-data-analytics" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <span>View on GitHub</span>
+            </a>
+            <a href="#dashboards" class="btn btn-outline btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              <span>View Dashboard Showcase</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Projects Grid -->
+      <div class="projects-grid" data-animate>
+        <!-- Project 2: E-Commerce Sales Analysis Dashboard -->
+        <div class="project-card">
+          <div class="project-media">
+            <img src="./assets/dashboard_preview.png" alt="E-Commerce Sales Analysis Dashboard" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">E-Commerce Sales Analysis Dashboard</h3>
+            <p class="project-description">
+              An interactive sales analytics dashboard developed to analyze sales performance, product categories, customer segments and regional trends.
+            </p>
+            <div class="project-tech">
+              <span>Power BI</span>
+              <span>Excel</span>
+              <span>SQL</span>
+              <span>Python</span>
+            </div>
+            <div class="project-highlights">
+              <span>Sales KPIs</span>
+              <span>Category Analysis</span>
+              <span>Regional Analysis</span>
+              <span>Sales Trends</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/siva252005/ecommerce-sales-analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="#dashboards" class="btn btn-outline btn-sm">
+                <span>View Dashboard</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Disaster Management Analytics Dashboard -->
+        <div class="project-card">
+          <div class="project-media">
+            <img src="./assets/Overview Dashboard.png" alt="Disaster Management Analytics Dashboard" class="project-img" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Disaster Management Analytics Dashboard</h3>
+            <p class="project-description">
+              An interactive dashboard designed to analyze disaster events, affected regions, casualties, economic impact and disaster trends.
+            </p>
+            <div class="project-tech">
+              <span>Power BI</span>
+              <span>Excel / CSV</span>
+              <span>Data Analytics</span>
+            </div>
+            <div class="project-highlights">
+              <span>Disaster KPIs</span>
+              <span>Disaster Type Analysis</span>
+              <span>Geographic Analysis</span>
+              <span>Trend Analysis</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/siva252005/Disaster-Management-Analytics" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="#dashboards" class="btn btn-outline btn-sm">
+                <span>View Dashboard</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-cta" data-animate>
+        <a href="https://github.com/siva252005" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <span>Explore All Repositories on GitHub</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ POWER BI DASHBOARDS SHOWCASE ═══════════════════════════════════════════ -->
+  <section class="section dashboards" id="dashboards">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Interactive Visual Reports</span>
+        <h2 class="section-title">Power BI Dashboard Showcase</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="dashboard-grid" data-animate>
+        <!-- Showcase 1: Healthcare Patient & Cost Analysis -->
+        <div class="dashboard-card">
+          <div class="dashboard-media">
+            <img src="./assets/Patient & Cost Analysis.png" alt="Healthcare Patient & Cost Analysis Power BI Dashboard" class="dashboard-img" loading="lazy" />
+          </div>
+          <div class="dashboard-info">
+            <h3>Healthcare Data Analytics Dashboard</h3>
+            <p>Interactive patient-level analysis dashboard examining insurance charge drivers, risk assessments, smoker cost distribution, and regional healthcare expenditure.</p>
+            <div class="dashboard-tools">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Python</span>
+              <span>MySQL</span>
+            </div>
+            <a href="https://github.com/siva252005/healthcare-data-analytics" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <span>View Project Repository</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Showcase 2: E-Commerce Sales Dashboard -->
+        <div class="dashboard-card">
+          <div class="dashboard-media">
+            <img src="./assets/dashboard_preview.png" alt="E-Commerce Sales Analytics Power BI Dashboard" class="dashboard-img" loading="lazy" />
+          </div>
+          <div class="dashboard-info">
+            <h3>E-Commerce Sales Dashboard</h3>
+            <p>Sales performance dashboard visualizing monthly revenue surges, product category contributions, customer lifetime value segments, and regional sales distribution.</p>
+            <div class="dashboard-tools">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Excel</span>
+              <span>SQL</span>
+            </div>
+            <a href="https://github.com/siva252005/ecommerce-sales-analysis" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <span>View Project Repository</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Showcase 3: Disaster Management Dashboard -->
+        <div class="dashboard-card">
+          <div class="dashboard-media">
+            <img src="./assets/Overview Dashboard.png" alt="Disaster Management Analytics Power BI Dashboard" class="dashboard-img" loading="lazy" />
+          </div>
+          <div class="dashboard-info">
+            <h3>Disaster Management Dashboard</h3>
+            <p>Interactive analytics dashboard designed to analyze global disaster events, affected populations, casualty rates, geographic patterns, and multi-decade impact trends.</p>
+            <div class="dashboard-tools">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Excel / CSV</span>
+            </div>
+            <a href="https://github.com/siva252005/Disaster-Management-Analytics" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <span>View Project Repository</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ CAPABILITIES ═══════════════════════════════════════════ -->
+  <section class="section capabilities" id="capabilities">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Core Competencies</span>
+        <h2 class="section-title">Capabilities</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="capabilities-grid" data-animate>
+        <div class="capability-card">
+          <div class="capability-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M7 12h10"/><path d="M10 18h4"/></svg>
+          </div>
+          <h3>Data Cleaning</h3>
+          <p>Handling missing values, data type conversions, standardizing schemas, and ensuring dataset integrity for reliable downstream analysis.</p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
+          <h3>Data Analysis</h3>
+          <p>Performing statistical summaries, exploratory data analysis, pattern identification, and discovering meaningful trends across business domains.</p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+          </div>
+          <h3>SQL Analytics</h3>
+          <p>Writing structured queries with multi-table JOINs, subqueries, CTEs, aggregations, and window functions to query databases effectively.</p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Dashboard Development</h3>
+          <p>Building interactive Power BI reports with custom DAX measures, dynamic slicers, drill-through paths, and clear KPI summaries.</p>
+        </div>
+
+        <div class="capability-card">
+          <div class="capability-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Data Visualization</h3>
+          <p>Creating intuitive charts and visual storytelling layouts with Matplotlib, Seaborn, Excel, and Power BI tailored for stakeholder clarity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ CERTIFICATIONS ═══════════════════════════════════════════ -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Verified Qualifications</span>
+        <h2 class="section-title">Certifications & Learning</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="certs-grid" data-animate>
+        <!-- Cert 1: Python 101 for Data Science -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>Python 101 for Data Science</h3>
+          <p class="cert-org">Cognitive Class • IBM Developer Skills Network</p>
+          <div class="cert-footer">
+            <a href="./assets/IBM PY0101EN COMPLETION CERTIFICATE (SIVA S).pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              <span>View Certificate</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 2: GenAI Powered Data Analytics -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>GenAI Powered Data Analytics Job Simulation</h3>
+          <p class="cert-org">Practical Data Analytics Simulation</p>
+          <div class="cert-footer">
+            <a href="./assets/GenAl Powered Data Analytics Certification (1).pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              <span>View Certificate</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Cert 3: Linux Fundamentals -->
+        <div class="cert-card">
+          <div class="cert-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>Linux 100: Fundamentals</h3>
+          <p class="cert-org">Cognitive Class / Linux Fundamentals</p>
+          <div class="cert-footer">
+            <a href="./assets/Linux Fundamentals certification.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              <span>View Certificate</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ ACHIEVEMENTS & PRACTICE ═══════════════════════════════════════════ -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Practical Milestones</span>
+        <h2 class="section-title">Achievements & Practice</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="achievements-grid" data-animate>
+        <div class="achievement-card">
+          <div class="achievement-icon">⚡</div>
+          <h3 class="achievement-title">End-to-End Analytics Workflows</h3>
+          <p class="achievement-desc">Executed complete analytics pipelines from dataset ingestion and cleaning to statistical analysis and business insights.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">📊</div>
+          <h3 class="achievement-title">Interactive Power BI Dashboards</h3>
+          <p class="achievement-desc">Designed multi-page interactive dashboards with custom DAX calculations, KPI drill-downs, and user-centric navigation.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">🗄️</div>
+          <h3 class="achievement-title">SQL Analytics Practice</h3>
+          <p class="achievement-desc">Demonstrated query proficiency using joins, CTEs, subqueries, group aggregations, and window functions on structured datasets.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon">📈</div>
+          <h3 class="achievement-title">Exploratory Data Analysis</h3>
+          <p class="achievement-desc">Identified key domain drivers, cost indicators, and behavioral patterns using Python (Pandas, Seaborn) and Excel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ GITHUB SECTION ═══════════════════════════════════════════ -->
+  <section class="section github-section" id="github">
+    <div class="container">
+      <div class="github-content" data-animate>
+        <div class="github-text">
+          <span class="section-label">Source Code & Queries</span>
+          <h2 class="section-title">Explore My GitHub</h2>
+          <p>Explore my project repositories, SQL query scripts, Python data analysis notebooks, and dashboard files on GitHub.</p>
+          <a href="https://github.com/siva252005" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>Visit @siva252005</span>
+          </a>
+        </div>
+
+        <div class="github-repos">
+          <a href="https://github.com/siva252005/healthcare-data-analytics" target="_blank" rel="noopener noreferrer" class="repo-card">
+            <div class="repo-header">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              <span class="repo-name">healthcare-data-analytics</span>
+            </div>
+            <p class="repo-desc">End-to-end healthcare insurance cost analysis with Python, SQL analytics, and interactive Power BI dashboards.</p>
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="lang-dot python"></span>Python / SQL</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/siva252005/ecommerce-sales-analysis" target="_blank" rel="noopener noreferrer" class="repo-card">
+            <div class="repo-header">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              <span class="repo-name">ecommerce-sales-analysis</span>
+            </div>
+            <p class="repo-desc">Interactive sales performance analytics dashboard created with Power BI, DAX, Excel, and SQL.</p>
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="lang-dot powerbi"></span>Power BI</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/siva252005/Disaster-Management-Analytics" target="_blank" rel="noopener noreferrer" class="repo-card">
+            <div class="repo-header">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              <span class="repo-name">Disaster-Management-Analytics</span>
+            </div>
+            <p class="repo-desc">Disaster analytics dashboard analyzing event distributions, casualties, economic impact, and multi-decade trends.</p>
+            <div class="repo-meta">
+              <span class="repo-lang"><span class="lang-dot powerbi"></span>Power BI</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ RESUME SECTION ═══════════════════════════════════════════ -->
+  <section class="section resume-section" id="resume">
+    <div class="container">
+      <div class="resume-cta" data-animate>
+        <span class="section-label">Curriculum Vitae</span>
+        <h2>Interested in My Background & Experience?</h2>
+        <p>Download my resume or view it online to review my skills, technical competencies, and project portfolio.</p>
+        
+        <div class="resume-actions">
+          <a href="./assets/Siva_S_Resume.pdf" download="Siva_S_Resume.pdf" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span>Download Resume</span>
+          </a>
+          <a href="./assets/Siva_S_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span>View Resume</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ CONTACT ═══════════════════════════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">I'm open to Data Analyst opportunities, entry-level roles, and project collaborations. Feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid" data-animate>
+        <div class="contact-info">
+          <!-- Email info card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:msdsiva762@gmail.com" class="contact-link" id="contactEmailLink">msdsiva762@gmail.com</a>
+            </div>
+          </div>
+
+          <!-- LinkedIn info card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/sivasivakumar252005/" target="_blank" rel="noopener noreferrer" class="contact-link" id="contactLinkedinLink">linkedin.com/in/sivasivakumar252005</a>
+            </div>
+          </div>
+
+          <!-- GitHub info card -->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/siva252005" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/siva252005</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form with Client-Side Validation -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+            <span class="form-error" id="nameError">Please enter your name.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            <span class="form-error" id="emailError">Please enter a valid email address.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Hello Siva, I would like to connect regarding a Data Analyst opportunity..." required></textarea>
+            <span class="form-error" id="messageError">Please enter your message (at least 5 characters).</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            <span>Send Message</span>
+          </button>
+
+          <div class="form-success" id="formSuccess">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>Thank you! Your message details have been validated and recorded.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ FOOTER ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span class="logo-symbol">◆</span> Siva <span class="accent">S</span>
+          </a>
+          <p class="footer-tagline">Aspiring Data Analyst</p>
+          <p class="footer-skills">SQL • Python • Excel • Power BI</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#dashboards">Dashboards</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="#capabilities">Capabilities</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://github.com/siva252005" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/sivasivakumar252005/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            <li><a href="mailto:msdsiva762@gmail.com">msdsiva762@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Siva S. All rights reserved. • Built for Data Analytics & Business Intelligence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
