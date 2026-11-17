@@ -4,6 +4,13 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Support local file protocol testing for absolute /resume.pdf URLs
+  if (window.location.protocol === 'file:') {
+    document.querySelectorAll('a[href="/resume.pdf"]').forEach((link) => {
+      link.setAttribute('href', './resume.pdf');
+    });
+  }
+
   // ─── 1. NAVBAR SCROLL & ACTIVE LINK OBSERVER ─────────────────────────────
   const navbar = document.getElementById('navbar');
   const navLinks = document.querySelectorAll('.nav-link');

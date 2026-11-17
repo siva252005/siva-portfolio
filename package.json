@@ -1,0 +1,20 @@
+{
+  "name": "siva-data-analyst-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Siva S - Aspiring Data Analyst Portfolio",
+  "scripts": {
+    "build": "node -e \"console.log('Build completed successfully: Data Analyst Portfolio is ready.')\"",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "data-analyst",
+    "power-bi",
+    "sql",
+    "python",
+    "portfolio"
+  ],
+  "author": "Siva S",
+  "license": "MIT"
+}
+

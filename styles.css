@@ -300,12 +300,20 @@ button, input, textarea {
   background-color: rgba(0, 168, 107, 0.12);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: var(--transition);
 }
 
 .nav-resume-btn:hover {
   border-color: var(--bright-green);
   color: var(--bright-green);
-  background-color: rgba(0, 168, 107, 0.2);
+  background-color: rgba(0, 168, 107, 0.22);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 168, 107, 0.25);
+}
+
+.nav-resume-btn:active {
+  transform: translateY(0);
 }
 
 .hamburger {
