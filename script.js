@@ -4,12 +4,11 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Support local file protocol testing for absolute /resume.pdf URLs
-  if (window.location.protocol === 'file:') {
-    document.querySelectorAll('a[href="/resume.pdf"]').forEach((link) => {
-      link.setAttribute('href', './resume.pdf');
-    });
-  }
+  // Ensure all resume links reliably use ./assets/resume.pdf for GitHub Pages compatibility
+  const resumeLinks = document.querySelectorAll('a[href*="resume.pdf"]');
+  resumeLinks.forEach((link) => {
+    link.setAttribute('href', './assets/resume.pdf');
+  });
 
   // ─── 1. NAVBAR SCROLL & ACTIVE LINK OBSERVER ─────────────────────────────
   const navbar = document.getElementById('navbar');
